@@ -1,0 +1,23 @@
+{
+  "name": "bitcount",
+  "version": "0.0.1",
+  "description": "Counts bits in a Integer or in a Buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --timeout 1 test.js"
+  },
+  "website": "https://github.com/mcollina/bitcount",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcollina/bitcount.git"
+  },
+  "bugs": {
+    "url": "http://github.com/mcollina/bitcount/issues"
+  },
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "~0.4.8",
+    "pre-commit": "0.0.4"
+  }
+}
